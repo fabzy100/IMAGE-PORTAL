@@ -1,5 +1,10 @@
 import styled from "styled-components";
 import UserCard from "./UserCard";
+import OneCard from "./OneCard";
+import TwoCard from "./TwoCard";
+import ThreeCard from "./ThreeCard";
+import FourCard from "./FourCard";
+import FiveCard from "./FiveCard";
 
 
 const Wrapper = styled.div`
@@ -11,8 +16,11 @@ const Content = () => {
   return (
     <Wrapper>
       <UserCard />
-      <UserCard />
-      <UserCard />
+      <OneCard />
+      <TwoCard />
+      <ThreeCard/>
+      <FourCard/>
+      <FiveCard/>
     </Wrapper>
   )
 }

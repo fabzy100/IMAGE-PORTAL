@@ -51,20 +51,20 @@ const Wrapper = styled.div`
 
 `;
 
-const UserCard = () => {
+const FourCard = () => {
   return (
     <Wrapper>
       <div className="profilePicture">
-        <img src="./img/movie-4.PNG" alt="" />
+        <img src="./img/movie-6.PNG" alt="" />
         
       </div>
 
       <div className="content">
         <div className="contentItem">
-        <p className="userName">Tyler Perry's Library</p>
+        <p className="userName"> GjEGS  Studio</p>
         </div>
         <div className="contentItem">
-        <p>Download your latest <span>BLOCKBUSTER movies</span> </p>
+        <p>Download your latest <span> Science Fiction</span> stories </p>
         </div>
         <div className="likeContainer">
         <CiHeart />
@@ -74,4 +74,4 @@ const UserCard = () => {
   )
 }
 
-export default UserCard;
+export default FourCard;
